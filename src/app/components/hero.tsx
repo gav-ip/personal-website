@@ -5,7 +5,7 @@ const socials = [
   {    
     name: "Discord",    
     url: "https://discord.com/users/gavvvn",    
-    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{siDiscord.title}</title><path d={siDiscord.path}/></svg>,  
+    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>{siDiscord.title}</title><path d={siDiscord.path}/></svg>,  
   }, 
   {   
     name: "LinkedIn",    
@@ -16,12 +16,12 @@ const socials = [
   {    
     name: "GitHub",    
     url: "https://github.com/gav-ip",    
-    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{siGithub.title}</title><path d={siGithub.path}/></svg>,  
+    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>{siGithub.title}</title><path d={siGithub.path}/></svg>,  
   },  
   {    
     name: "Email",    
     url: "mailto:abrigogavin05@gmail.com",    
-    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{siGmail.title}</title><path d={siGmail.path}/></svg>,  
+    icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>{siGmail.title}</title><path d={siGmail.path}/></svg>,  
   },
 ]
 
