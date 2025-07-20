@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { siDiscord, siGithub, siGmail, siLibreoffice } from "simple-icons";
 import { FileText } from "lucide-react";
 import { useState, useCallback } from 'react';

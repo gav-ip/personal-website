@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/ui/accordion/accordion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const experiences = [
   {
