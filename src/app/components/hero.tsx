@@ -42,7 +42,7 @@ export default function Hero() {
     {
       name: "Resume",
       url: "/Gavin Abrigo - resume.pdf",
-      icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>{siLibreoffice.title}</title><path d={siLibreoffice.path}/></svg>,  
+      icon: <FileText />,  
     },
   ];
 
@@ -52,7 +52,11 @@ export default function Hero() {
       <div className="flex flex-col px-4 max-w-full sm:max-w-md">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">Gavin Abrigo</h1>
         <h2 className="text-sm sm:text-base md:text-lg flex flex-col sm:inline-flex sm:flex-row sm:items-center mb-3 sm:mb-4">
-          <span>CSE Student @ UC Merced</span>
+          <span>CSE Student @ </span>
+          <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <Image src="/uc-merced.png" alt="UC Merced Logo" width={20} height={20} className="mr-1" />
+            <span>UC Merced</span>
+          </a>
           <span className="bg-[#101827] text-white-500 mt-2 sm:mt-0 sm:ml-4 rounded-md px-2 py-0.5 text-xs sm:text-sm self-start sm:self-auto">Junior</span>
         </h2>
         <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">I&apos;m a full time student and an aspiring AI / machine learning engineer. I&apos;m interested in AI research in regards to nureal networks, LLMs, and MCP.</p>
@@ -67,7 +71,7 @@ export default function Hero() {
               </a>
               {social.name === 'Email' && showCopied && (
                 <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-gray-700 text-white text-xs rounded-md px-2 py-1">
-                  Copied to Clipboard!
+                  Email copied to clipboard!
                 </div>
               )}
             </div>

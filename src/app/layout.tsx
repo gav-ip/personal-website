@@ -10,7 +10,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gavin Abrigo | gabrigo.com",
+  title: "Gavin Abrigo",
   description: "Gavin Abrigo's personal website",
 };
 
