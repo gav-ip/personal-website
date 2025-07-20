@@ -42,7 +42,7 @@ export default function Hero() {
     {
       name: "Resume",
       url: "/Gavin Abrigo - resume.pdf",
-      icon: <FileText />,  
+      icon: <FileText fill = "currentColor"/>,  
     },
   ];
 
