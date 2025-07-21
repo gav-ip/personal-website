@@ -52,9 +52,9 @@ export default function Hero() {
       <div className="flex flex-col px-4 max-w-full sm:max-w-md">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">Gavin Abrigo</h1>
         <h2 className="text-sm sm:text-base md:text-lg flex flex-col sm:inline-flex sm:flex-row sm:items-center mb-3 sm:mb-4">
-          <span>CSE Student @ </span>
+          <span>CSE Student at </span>
           <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="flex items-center">
-            <Image src="/uc_merced_logo.png" alt="UC Merced Logo" width={20} height={20} className="mr-1" />
+            <Image src="/uc_merced_logo.png" alt="UC Merced Logo" width={20} height={20} className="mx-2" />
             <span>UC Merced</span>
           </a>
           <span className="bg-[#101827] text-white-500 mt-2 sm:mt-0 sm:ml-4 rounded-md px-2 py-0.5 text-xs sm:text-sm self-start sm:self-auto">Junior</span>
