@@ -54,7 +54,8 @@ export default function Hero() {
               src="/uc_merced_logo.png"
               draggable="false"
               loading="eager"
-              height={19}
+              width={20}
+              height={20}
               alt="UC Merced Logo"
             />
             <span className="border-b border-dashed border-white">UC Merced</span>
