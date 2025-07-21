@@ -42,7 +42,7 @@ export default function Hero() {
     {
       name: "Resume",
       url: "/Gavin Abrigo - resume.pdf",
-      icon: <><FileText/> <span className="ml-1">Resume</span></>,  
+      icon: <div className="flex items-center"><FileText/> <span className="ml-1">Resume</span></div>,  
     },
   ];
 
