@@ -60,7 +60,9 @@ export default function Hero() {
           {socials.map((social) => (
             <div key={social.name} className="relative">
               <a href={social.url} onClick={social.onClick} className="text-gray-400 hover:text-white transition-colors p-1" target="_blank" rel="noopener noreferrer">
-                {social.icon}
+                <div className="w-5 h-5 sm:w-6 sm:h-6">
+                  {social.icon}
+                </div>
               </a>
               {social.name === 'Email' && showCopied && (
                 <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-gray-700 text-white text-xs rounded-md px-2 py-1">
@@ -72,7 +74,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-row gap-4 sm:gap-6 justify-start mt-4">
           <a href="/Gavin Abrigo - resume.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors p-1 flex items-center">
-            <FileText fill="currentColor" className="w-5 h-5 sm:w-6 sm:h-6" />
+            <FileText className="w-5 h-5 sm:w-6 sm:h-6" />
             <span className="ml-1">My Resume</span>
           </a>
         </div>
