@@ -15,7 +15,7 @@ const experiences = [
     company: "Oculus",
     position: "Backend Intern",
     description: "- Assisted in the implementation of cross-platform command-line tools in beta testing. Tested and documented new CLI commands and workflows across different OS environments",
-    date: "Jan 2025 - Summer 2025"
+    date: "Jan 2025 - June 2025"
   },
   {
     id: "item-2",
