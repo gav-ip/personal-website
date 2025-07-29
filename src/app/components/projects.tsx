@@ -27,7 +27,7 @@ export default function Projects() {
     {
       id: "project-1",
       name: "Fleet-AI", 
-      type: "Local Run Website (In Progress)",
+      type: "Local Tool (In Progress)",
       description: "NEMO Agent Virtual Fleet Vehicle Health and Maintinence Advisor.",
       image: "/fleet-ai.webp",
       link: "https://github.com/gav-ip/fleet-ai",
@@ -36,7 +36,7 @@ export default function Projects() {
         { name: "StreamLit", component: StreamLitIcon},
         { name: "Nvidia", component: NvidiaIcon}
       ]
-    }
+    },
     // {
     //   id: "project-4",
     //   name: "Project 4", 
