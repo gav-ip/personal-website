@@ -70,8 +70,11 @@ export default function Projects() {
       {/* Responsive grid container */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
         {projects.map((project) => (
-            <a key={project.id}
+            <a 
+              key={project.id}
               href={project.link}
+              target="_blank" 
+              rel="noopener noreferrer"
               className="bg-[#131313] p-3 sm:p-4 rounded-lg hover:bg-[#232323] transition-colors group block cursor-pointer"
             >
               <div className="flex flex-col space-y-2 sm:space-y-3">
