@@ -19,7 +19,7 @@ export default function Hero() {
   const socials = [
     {
       name: "Discord",
-      url: "https://discord.com/users/maxxfuu",
+      url: "https://discord.com/users/gavvvn",
       icon: <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><title>{siDiscord.title}</title><path d={siDiscord.path}/></svg>,  
     },
     {
