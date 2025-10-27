@@ -13,8 +13,8 @@ const experiences = [
     id: "item-1",
     image: "/oculus.png",
     company: "Oculus",
-    position: "Backend Intern",
-    description: "- Assisted in the implementation of cross-platform command-line tools in beta testing. Tested and documented new CLI commands and workflows across different OS environments using TypeScript, GoLang, and Bash",
+    position: "Software Engineering Intern",
+    description: "- Assisted in the early development of Bash tools and TypeScript modules for command-line interfaces while collaborating closely with developers debugging errors and defining architecture and feature sets.",
     date: "Jan 2025 - Jun 2025"
   },
   {
