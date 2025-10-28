@@ -51,7 +51,7 @@ export default function Projects() {
       name: "OCR-Tool",
       type: "CLI Tool", 
       description: "Batch-capable OCR pipeline for extracting plain English text from single-page and double-page PDFs",
-      image: "/ocr-tool.webp",
+      image: "/ocr-tool.png",
       link: "https://github.com/gav-ip/ocr-tool",
       technologies: [
         { name: "Python", component: PythonIcon },
