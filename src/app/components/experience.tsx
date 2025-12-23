@@ -11,6 +11,14 @@ import Image from "next/legacy/image";
 const experiences = [
   {
     id: "item-1",
+    image: "/uc_merced_logo.png",
+    company: "UC Merced",
+    position: "Software Engineering Intern",
+    description: "Building a Python-based KGR and RAG pipeline with Wikidata to improve NLP factual accuracy, while fine-tuning entity linking systems and evaluating LLM verification performance.",   
+    date: "Sep 2025 - Present"
+  },
+  {
+    id: "item-2",
     image: "/oculus.png",
     company: "Oculus",
     position: "Software Engineering Intern",
@@ -18,7 +26,7 @@ const experiences = [
     date: "Jan 2025 - Jun 2025"
   },
   {
-    id: "item-2",
+    id: "item-3",
     image: "/techknowhow.png",
     company: "TechKnowHow",
     position: "Teaching Assistant",
