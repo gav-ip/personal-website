@@ -62,7 +62,7 @@ export default function Hero() {
           </a>
           <span className="bg-[#101827] text-white-500 mt-2 sm:mt-0 sm:ml-4 rounded-md px-2 py-0.5 text-xs sm:text-sm self-start sm:self-auto">Junior</span>
         </h2>
-        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI/ML engineer interested in transformer-based LLMs, model-context protocols, and retrieval-augmented generation.</p>
+        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI/ML engineer interested in AI Agents, model-context protocols, and retrieval-augmented generation.</p>
         <p className="text-[#9CA3AF] mb-4 sm:mb-6 text-sm sm:text-base">If you&apos;d like to chat, feel free to reach out!</p>
         <div className="flex flex-row gap-4 sm:gap-6 justify-start">
           {socials.map((social) => (
@@ -86,17 +86,6 @@ export default function Hero() {
             <span className="ml-1">My Resume</span>
           </a>
         </div>
-      </div>
-
-      <div>
-        <Image
-          src="/profilepic.png"
-          alt="Gavin Abrigo"
-          width={400}
-          height={400}
-          priority={true}
-          draggable={false}
-          className="w-[300px] h-[300px] object-cover rounded-md border-2 sm:border-4 border-[#151315] mt-4" />
       </div>
     </div>
   );
