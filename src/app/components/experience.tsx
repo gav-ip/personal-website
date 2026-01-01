@@ -13,7 +13,7 @@ const experiences = [
     id: "item-1",
     image: "/uc_merced_logo.png",
     company: "UC Merced",
-    position: "Software Engineering Intern",
+    position: "Undergraduate researcher",
     description: "Building a Python-based KGR and RAG pipeline with Wikidata to improve NLP factual accuracy, while fine-tuning entity linking systems and evaluating LLM verification performance.",   
     date: "Sep 2025 - Present"
   },
@@ -46,7 +46,7 @@ export default function Experience() {
             <AccordionTrigger className="text-left w-full">
               <div className="flex items-center justify-between w-full pr-2 sm:pr-4">
                 <div className="flex items-center gap-3 sm:gap-4 min-w-0 flex-1">
-                  <Image src={exp.image} alt={exp.company} width={35} height={35} className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9" />
+                  <Image src={exp.image} alt={exp.company} width={35} height={35} className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 object-contain" />
                   <div className="flex flex-col items-start min-w-0 flex-1">
                     <h3 className="font-medium text-sm sm:text-base truncate w-full">{exp.company}</h3>
                     <div className="flex items-center text-xs sm:text-sm text-[#9CA3AF]">

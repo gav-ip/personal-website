@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const workSans = Work_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gavin Abrigo",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={workSans.className}>
         <div className="flex flex-col min-h-screen w-full sm:max-w-4xl sm:mx-auto md:px-12">
           <main className="flex-1">{children}</main>
           <Footer />

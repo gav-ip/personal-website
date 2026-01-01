@@ -48,7 +48,7 @@ export default function Hero() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">Gavin Abrigo</h1>
         <h2 className="text-sm sm:text-base md:text-lg flex flex-col sm:inline-flex sm:flex-row sm:items-center mb-3 sm:mb-4">
           <span>CSE Student at &nbsp;</span>
-          <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+          <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5">
             <Image
               className="inline rounded border border-neutral-500 bg-[#182B49] object-contain p-0.5 transition-[filter] group-hover:brightness-105"
               src="/uc_merced_logo.png"
