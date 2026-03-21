@@ -6,9 +6,17 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/ui/accordion/accordion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const experiences = [
+  {
+    id: "item-0",
+    image: "/bart_logo.png",
+    company: "BART",
+    position: "Software Engineering Associate",
+    description: "Architecting a Python-based computer vision and multimodal AI pipeline to automatically classify infrastructure incident images submitted via email/mobile, generate structured metadata, and route to appropriate maintenance teams ",
+    date: "Jan 2026 - Present"
+  },
   {
     id: "item-1",
     image: "/uc_merced_logo.png",

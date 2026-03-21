@@ -81,7 +81,7 @@ export default function Hero() {
           ))}
         </div>
         <div className="flex flex-row gap-4 sm:gap-6 justify-start mt-4">
-          <a href="/Gavin Abrigo - resume.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors p-1 flex items-center">
+          <a href="/Gavin Abrigo - resume_intern.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors p-1 flex items-center">
             <FileText className="w-5 h-5 sm:w-6 sm:h-6" />
             <span className="ml-1">My Resume</span>
           </a>
