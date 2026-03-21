@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { siDiscord, siGithub, siGmail, siLibreoffice } from "simple-icons";
 import { FileText } from "lucide-react";
 import { useState, useCallback } from 'react';
@@ -44,25 +44,25 @@ export default function Hero() {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center py-8 sm:py-12 md:py-16 gap-6 sm:gap-8">
       {/* left side */}
-      <div className="flex flex-col px-4 max-w-full sm:max-w-md">
+      <div className="flex flex-col px-4 max-w-full sm:max-w-xl">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">Gavin Abrigo</h1>
-        <h2 className="text-sm sm:text-base md:text-lg flex flex-col sm:inline-flex sm:flex-row sm:items-center mb-3 sm:mb-4">
-          <span>CSE Student at &nbsp;</span>
-          <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5">
-            <Image
-              className="inline rounded border border-neutral-500 bg-[#182B49] object-contain p-0.5 transition-[filter] group-hover:brightness-105"
-              src="/uc_merced_logo.png"
-              draggable="false"
-              loading="eager"
-              width={20}
-              height={20}
-              alt="UC Merced Logo"
-            />
-            <span className="border-b border-dashed border-white">UC Merced</span>
+        <h2 className="text-sm sm:text-base md:text-lg flex flex-wrap items-center gap-x-1 gap-y-1 mb-3 sm:mb-4">
+          <span>CSE Major and Minor in Management Data Analytics</span>
+          <a href="https://www.ucmerced.edu/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 group">
+            <span>@</span>
+            <span className="relative w-5 h-5 flex-shrink-0">
+              <Image
+                src="/uc_merced_logo.png"
+                alt="UC Merced Logo"
+                fill
+                sizes="20px"
+                className="object-contain rounded border border-neutral-500 bg-[#182B49] p-0.5 transition-[filter] group-hover:brightness-105"
+              />
+            </span>
+            <span className="border-b border-dashed border-white"> UC Merced</span>
           </a>
-          <span className="bg-[#101827] text-white-500 mt-2 sm:mt-0 sm:ml-4 rounded-md px-2 py-0.5 text-xs sm:text-sm self-start sm:self-auto">Junior</span>
         </h2>
-        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI engineer interested in Agentic workflows, MLOps, Computer Vision, and Project Management </p>
+        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI engineer interested in Agetic workflows, MLOps, Computer Vision, and Project Management </p>
         <p className="text-[#9CA3AF] mb-4 sm:mb-6 text-sm sm:text-base">If you&apos;d like to chat, feel free to reach out!</p>
         <div className="flex flex-row gap-4 sm:gap-6 justify-start">
           {socials.map((social) => (
