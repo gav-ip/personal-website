@@ -62,7 +62,7 @@ export default function Hero() {
             <span className="border-b border-dashed border-white"> UC Merced</span>
           </a>
         </h2>
-        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI engineer interested in Agetic workflows, MLOps, Computer Vision, and Project Management </p>
+        <p className="text-[#9CA3AF] mb-3 text-sm sm:text-base leading-relaxed">Full time student and aspiring AI engineer interested in Agentic Workflows, MLOps, Computer Vision, and Project Management </p>
         <p className="text-[#9CA3AF] mb-4 sm:mb-6 text-sm sm:text-base">If you&apos;d like to chat, feel free to reach out!</p>
         <div className="flex flex-row gap-4 sm:gap-6 justify-start">
           {socials.map((social) => (
