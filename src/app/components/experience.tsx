@@ -14,7 +14,7 @@ const experiences = [
     image: "/bart_logo.png",
     company: "BART",
     position: "Software Engineering Associate",
-    description: "Architecting a Python-based computer vision and multimodal AI pipeline to automatically classify infrastructure incident images submitted via email/mobile, generate structured metadata, and route to appropriate maintenance teams ",
+    description: "Architecting a Python-based computer vision and multimodal AI pipeline to automatically classify infrastructure incident images submitted via web/mobile app, generate structured metadata, and route to appropriate maintenance teams ",
     date: "Jan 2026 - Present"
   },
   {
@@ -22,7 +22,7 @@ const experiences = [
     image: "/uc_merced_logo.png",
     company: "UC Merced",
     position: "Undergraduate researcher",
-    description: "Building a Python-based KGR and RAG pipeline with Wikidata to improve NLP factual accuracy, while fine-tuning entity linking systems and evaluating LLM verification performance.",   
+    description: "Building a Python-based KGR and RAG pipeline with Wikidata to improve NLP factual accuracy, while fine-tuning entity linking systems and evaluating LLM verification performance.",
     date: "Sep 2025 - Present"
   },
   {
@@ -30,7 +30,7 @@ const experiences = [
     image: "/oculus.png",
     company: "Oculus",
     position: "Software Engineering Intern",
-    description: "- Assisted in the early development of Bash tools and TypeScript modules for command-line interfaces while collaborating closely with developers debugging errors and defining architecture and feature sets.",
+    description: "Assisted in the early development of Bash tools and TypeScript modules for command-line interfaces while collaborating closely with developers debugging errors and defining architecture and feature sets.",
     date: "Jan 2025 - Jun 2025"
   },
   {
@@ -47,7 +47,7 @@ export default function Experience() {
   return (
     <div className="py-4 px-4">
       <h2 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">experience</h2>
-      
+
       <Accordion type="multiple" className="w-full">
         {experiences.map((exp) => (
           <AccordionItem key={exp.id} value={exp.id}>
